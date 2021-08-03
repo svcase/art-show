@@ -1,0 +1,207 @@
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+.logo {
+  font-family: 'EB Garamond', serif;
+}
+
+.mainHeader {
+  background-image: url('https://static.wixstatic.com/media/ad6889_9249e53d92ae428198851d71a37e093c~mv2_d_1861_2332_s_2.jpg/v1/fill/w_857,h_1075,al_c,q_85,usm_0.66_1.00_0.01/ad6889_9249e53d92ae428198851d71a37e093c~mv2_d_1861_2332_s_2.webp');
+}
+
+.jumbo {
+  text-align: center;
+}
+
+.jumbo h1 {
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.jumbo p {
+  margin-bottom: 10%;
+  margin-left: 11%;
+  margin-right: 11%;
+  text-align: justify;
+}
+
+.deetsTitle {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.deetsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.deetsText {
+  margin: 10% 10% 15% 10%;
+}
+
+.garageImg {
+  width: 75%;
+}
+
+.address {
+  line-height: 0.2rem;
+}
+
+#artists {
+  background-color: #C7FFE0;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.artists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 5% 5% 10% 5%;
+}
+
+.artists p {
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.artist-img {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.rsvp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 5% 5% 10% 5%;
+}
+
+.btn {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  background-color: #C7FFE0;
+  font-weight: 600;
+  box-shadow: 2px 4px 4px 0.5px rgba(0,0,0,0.5);
+}
+
+.nameText {
+  margin-bottom: 0;
+}
+
+.guestText {
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+
+.rsvpInput {
+  margin-top: 2%;
+  padding: 1% 1% 1% 2%;
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+
+  .jumbo {
+    width: 45%;
+  }
+
+  .jumbo p {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  #deets {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .deetsContainer {
+    flex-direction: row;
+    margin: 0 5% 11% 5%;
+  }
+
+  .deetsTitle {
+    margin-top: 8%;
+  }
+
+  .deetsText {
+    width: 75%;
+    margin: 0 0 0 3%;
+  }
+
+  .garageImg {
+    width: 100%;
+  }
+
+  #artists {
+    margin-top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .artists {
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 8%;
+  }
+
+  .artist-title {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .artists p {
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .artist-img {
+    margin-bottom: 0;
+  }
+
+  .liza .artist-img {
+    order: 3;
+  }
+
+  .liza .artist-text {
+    order: 1;
+  }
+
+  .liza .artist-title {
+    order: 2;
+  }
+
+  .rsvp {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
