@@ -24,7 +24,7 @@ const Home = () => {
         <h2 className="deetsTitle">The Deets</h2>
         <div className="deetsContainer">
           <div className="deetsImg">
-            <img className="garageImg" src="/garage.jpg" alt="garage-img"></img>
+            <img className="garageImg" src="./garage.jpg" alt="garage-img"></img>
           </div>
           <div className="deetsText">
             <p className="address">Saturday, August 7th</p>
@@ -40,10 +40,10 @@ const Home = () => {
       <div id="artists">
         <h2 className="deetsTitle">The Artists</h2>
         <div className="leah">
-          <Artist image="/leah.jpg" name="Leah Reusch" content="Leah's about blurb here. Derpa derpa doop dee dum doopy doop woop. Skeedily beedily dee bop boop. Scooch chooch scoopy doop dee dap dum ram a lam a ding dong. Scooby dooby hooby booby wamma jamma skip hop boopity bop deebidy dobbidy fliipity floppity." />
+          <Artist image="./leah.jpg" name="Leah Reusch" content="Leah's about blurb here. Derpa derpa doop dee dum doopy doop woop. Skeedily beedily dee bop boop. Scooch chooch scoopy doop dee dap dum ram a lam a ding dong. Scooby dooby hooby booby wamma jamma skip hop boopity bop deebidy dobbidy fliipity floppity." />
         </div>
         <div className="liza">
-          <Artist image="/liza.jpg" name="Liza Darlington" content="Liza's about blurb here. Derpa derpa doop dee dum doopy doop woop. Skeedily beedily dee bop boop. Scooch chooch scoopy doop dee dap dum ram a lam a ding dong. Scooby dooby hooby booby wamma jamma skip hop boopity bop deebidy dobbidy fliipity floppity." />
+          <Artist image="./liza.jpg" name="Liza Darlington" content="Liza's about blurb here. Derpa derpa doop dee dum doopy doop woop. Skeedily beedily dee bop boop. Scooch chooch scoopy doop dee dap dum ram a lam a ding dong. Scooby dooby hooby booby wamma jamma skip hop boopity bop deebidy dobbidy fliipity floppity." />
         </div>
       </div>
 
