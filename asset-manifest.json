@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/svcase/art-show/static/css/main.78e37781.chunk.css",
+    "main.js": "/svcase/art-show/static/js/main.7953d189.chunk.js",
+    "main.js.map": "/svcase/art-show/static/js/main.7953d189.chunk.js.map",
+    "runtime-main.js": "/svcase/art-show/static/js/runtime-main.2ea0b37b.js",
+    "runtime-main.js.map": "/svcase/art-show/static/js/runtime-main.2ea0b37b.js.map",
+    "static/js/2.2817f5e5.chunk.js": "/svcase/art-show/static/js/2.2817f5e5.chunk.js",
+    "static/js/2.2817f5e5.chunk.js.map": "/svcase/art-show/static/js/2.2817f5e5.chunk.js.map",
+    "static/js/3.24d65b77.chunk.js": "/svcase/art-show/static/js/3.24d65b77.chunk.js",
+    "static/js/3.24d65b77.chunk.js.map": "/svcase/art-show/static/js/3.24d65b77.chunk.js.map",
+    "index.html": "/svcase/art-show/index.html",
+    "static/css/main.78e37781.chunk.css.map": "/svcase/art-show/static/css/main.78e37781.chunk.css.map",
+    "static/js/2.2817f5e5.chunk.js.LICENSE.txt": "/svcase/art-show/static/js/2.2817f5e5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/svcase/art-show/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea0b37b.js",
+    "static/js/2.2817f5e5.chunk.js",
+    "static/css/main.78e37781.chunk.css",
+    "static/js/main.7953d189.chunk.js"
+  ]
+}
