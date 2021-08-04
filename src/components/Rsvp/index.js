@@ -21,7 +21,7 @@ const Rsvp = () => {
       <input className="rsvpInput" onChange={handleChange} type="text" placeholder="Your name" value={name}/>
       <p className="guestText">Number of guests (in addition to yourself):</p>
       <input className="rsvpInput" onChange={guestChange} type="text" placeholder="# of guests"/>
-      <a className="btn" href={`mailto:svcase@gmail.com?subject=Garage Art Show RSVP&body=` + name + ` is attending the Garage Art Show with ` + guest + ` guest(s)!`}>RSVP</a>
+      <a className="btn" href={`mailto:darlington.liza@gmail.com?subject=Garage Art Show RSVP&body=` + name + ` is attending the Garage Art Show with ` + guest + ` guest(s)!`}>RSVP</a>
     </div>
   );
 }
