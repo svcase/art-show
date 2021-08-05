@@ -14,12 +14,27 @@ h3 {
   font-weight: 400;
 }
 
+.artist-title {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+}
+
+.menuCustom {
+  background-color: #c7d8c9;
+}
+
 .logo {
   font-family: 'EB Garamond', serif;
+  font-weight: 500;
+}
+
+#header {
+  padding-top: 18%;
 }
 
 .mainHeader {
   background-image: url("./img/flowers.jpg");
+  padding-bottom: 22%;
 }
 
 .jumbo {
@@ -33,9 +48,9 @@ h3 {
 
 .jumbo p {
   margin-bottom: 10%;
-  margin-left: 11%;
-  margin-right: 11%;
-  text-align: justify;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
 }
 
 .deetsTitle {
@@ -65,7 +80,7 @@ h3 {
 }
 
 #artists {
-  background-color: #C7FFE0;
+  background-color: #f7ecb6;
   padding-top: 3%;
   padding-bottom: 5%;
 }
@@ -102,7 +117,7 @@ h3 {
 .btn {
   margin-top: 7%;
   margin-bottom: 5%;
-  background-color: #C7FFE0;
+  background-color: #e6c00c;
   font-weight: 600;
   box-shadow: 2px 4px 4px 0.5px rgba(0,0,0,0.5);
 }
@@ -123,17 +138,37 @@ h3 {
   border-radius: 5px;
 }
 
+@media (min-width: 768px) and (max-width: 1310px) {
+
+  .mainHeader {
+     padding-top: 0;
+     background-color: #fff;
+  }
+
+  .jumbo p {
+    margin: 0;
+  }
+}
+
 @media (min-width: 768px) {
+
+  #header {
+    padding-top: 10%;
+  }
+
+  .mainHeader {
+    padding-bottom: 23%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .jumbo {
     width: 45%;
   }
 
-  .jumbo p {
-    margin-top: 8%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+  .jumbo h1 {
+    margin-top: 0;
+    margin-bottom: 7%;
   }
 
   #deets {

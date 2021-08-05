@@ -8,8 +8,8 @@ const MenuBar = () => {
 
   return (
     <div>
-    <Navbar bg="light" expand="lg" fixed="top">
-      <Navbar.Brand className="logo" href="#header">Garage Art Show</Navbar.Brand>
+    <Navbar className="menuCustom" expand="lg" fixed="top">
+      <Navbar.Brand className="logo" href="#header">Stormflower</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto container-fluid justify-content-end">
