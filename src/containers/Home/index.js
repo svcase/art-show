@@ -40,10 +40,10 @@ const Home = () => {
       <div id="artists">
         <h2 className="deetsTitle">The Artists</h2>
         <div className="leah">
-          <Artist image="./leah.jpg" name="Leah Reusch" link="https://lcreusch.wixsite.com/leahreusch" content="Leah's about blurb here. Derpa derpa doop dee dum doopy doop woop. Skeedily beedily dee bop boop. Scooch chooch scoopy doop dee dap dum ram a lam a ding dong. Scooby dooby hooby booby wamma jamma skip hop boopity bop deebidy dobbidy fliipity floppity." />
+          <Artist image="./leah.jpg" name="Leah Reusch" link="https://lcreusch.wixsite.com/leahreusch" content="Leah works in interdisciplinary performance art and installations, making paintings with light and space, and collages with painting, body and poetry. Her art explores landscapes of intimacy and true communication, the re-appropriation and reclamation of the female muse, the intricacies of human connection, perception, emotional common ground and intimacy, the purposes and sources of empathy and justice within the body as it relates to the natural environment, and the melding of academic writing concerning body and space with poetry, visual and performance art. Leah works with youth and disabled adults in wilderness and farm settings, where she teaches, learns and practices healing methods through art, outdoor, and natural therapies." />
         </div>
         <div className="liza">
-          <Artist image="./liza.jpg" name="Liza Darlington" content="Liza's about blurb here. Derpa derpa doop dee dum doopy doop woop. Skeedily beedily dee bop boop. Scooch chooch scoopy doop dee dap dum ram a lam a ding dong. Scooby dooby hooby booby wamma jamma skip hop boopity bop deebidy dobbidy fliipity floppity." />
+          <Artist image="./liza.jpg" name="Liza Darlington" content="Liza’s art is informed by her love of history, her role as an educator, and her curiosity about the human experience and natural connections. She explores her own identity, and that of her communities, using portraiture, natural symbols, and fonts. Through her murals, Liza seeks to mirror, perpetuate, and challenge collective memory." />
         </div>
       </div>
 
